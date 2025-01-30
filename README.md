@@ -43,9 +43,126 @@
 
 ---
 
+# INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA  
+## KULLIYYAH OF INFORMATION COMMUNICATION TECHNOLOGY  
+### CSCI 4311 | MOBILE APPLICATION DEVELOPMENT | SECTION 1  
+### SEMESTER 1, 2024/2025  
+## Virtual Library: ShelfMate  
+
+### By Group: XBT  
+
+---
+
+## **Group Members**  
+
+| Name                                   | Matric ID  |  
+|----------------------------------------|------------|  
+| **Nor Aiman Zaharin Bin Noor Azwan**   | 2115931    |  
+| **Muhammad Zulhazmi Rafiqi Azhary**    | 2116207    |  
+| **Muhammad Syafiy Bin Abdul Rahman**   | 2115569    |  
+
+---
+
+## **Project Summary**  
+
+**Virtual Library: ShelfMate** is a mobile application designed to provide users with an interactive and accessible XXX  
+
+---
+
+## **Project Objectives**  
+
+1. **Efficient Use of Widgets**  
+   - Utilize Flutter’s widget-based architecture to create modular, reusable, and scalable UI components (e.g., book cards, navigation bars, buttons).  
+
+2. **Integration of HTTP Library for Data Fetching**  
+   - Implement the HTTP package to fetch book data, images, and other relevant information from an external API, ensuring real-time updates.  
+   - [Google Books API](https://developers.google.com/books/docs/overview)  
+
+3. **Authentication System with Firebase/API**  
+   - Set up Firebase Authentication or an API-driven authentication system to manage user sign-ups, logins, and account security.  
+
+4. **Proper Page Routing and Navigation**  
+   - Implement structured navigation using Flutter’s `Navigator` system for smooth transitions between pages (home, book details, user profile, etc.).  
+
+5. **Responsive and Well-Designed Layouts**  
+   - Use Flutter’s layout widgets (`Column`, `Row`, `Expanded`, `Flexible`, `Stack`) to ensure proper UI alignment, responsiveness, and a seamless user experience across different screen sizes.  
+
+---
+
 ## **Compilation and Running Instructions**
 
-XXX
+### **1. Prerequisites**
+Before running the project, ensure that you have the following installed:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (Version: `3.24.3` • Channel: `stable` • [GitHub](https://github.com/flutter/flutter.git))
+- Framework Revision: `2663184aa7` (5 months ago) • `2024-09-11 16:27:48 -0500`
+- Engine Revision: `36335019a8`
+- Tools:
+  - Dart `3.5.3`
+  - DevTools `2.37.3`
+- [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/) with Flutter and Dart extensions.
+- A physical Android/iOS device or an emulator (Android Emulator or iOS Simulator).
+- Firebase account (if using Firebase Authentication).
+
+### **2. Clone the Repository**
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/Virtual-Library-ShelfMate.git
+cd Virtual-Library-ShelfMate
+```
+
+### **3. Install Dependencies**
+```bash
+flutter pub get
+```
+
+### **4. Configure Firebase (If Applicable)**
+#### **For Android**
+1. Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
+2. Register your app with the package name found in `android/app/build.gradle`.
+3. Download the `google-services.json` file and place it inside `android/app/`.
+
+#### **For iOS**
+1. Enable Firebase for iOS in the [Firebase Console](https://console.firebase.google.com/).
+2. Register the iOS bundle identifier.
+3. Download the `GoogleService-Info.plist` file and place it inside `ios/Runner/`.
+
+### **5. Run the Application**
+#### **Using an Emulator or Connected Device**
+```bash
+flutter run
+```
+#### **For Android**
+```bash
+flutter run --release
+```
+#### **For iOS**
+```bash
+cd ios
+pod install
+cd ..
+flutter run --release
+```
+
+### **6. Building the APK (Android)**
+```bash
+flutter build apk --release
+```
+This will create an APK file in:
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+### **7. Building for iOS**
+```bash
+flutter build ios --release
+```
+Ensure Xcode is installed and configured properly.
+
+### **8. Troubleshooting**
+```bash
+flutter doctor
+```
+This command will check for missing dependencies and suggest fixes.
+
 
 ---
 
