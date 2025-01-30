@@ -187,7 +187,7 @@ The **Virtual Library: ShelfMate** app follows a structured and user-friendly fl
   <img src="assets/settingsPage.png" width="200" />
 </p>
 
-- Users can access their page to:
+- Users can access the page to:
   - **Log out** 
 
 <br>
