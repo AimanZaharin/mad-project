@@ -68,11 +68,7 @@ cd Virtual-Library-ShelfMate
 flutter pub get
 ```
 
-### **4. Configure Firebase (If Applicable)**
-#### **For Android**
-1. Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
-2. Register your app with the package name found in `android/app/build.gradle`.
-3. Download the `google-services.json` file and place it inside `android/app/`.
+### **4. Configure Firebase**
 
 #### **For iOS**
 1. Enable Firebase for iOS in the [Firebase Console](https://console.firebase.google.com/).
@@ -84,10 +80,7 @@ flutter pub get
 ```bash
 flutter run
 ```
-#### **For Android**
-```bash
-flutter run --release
-```
+
 #### **For iOS**
 ```bash
 cd ios
@@ -96,26 +89,23 @@ cd ..
 flutter run --release
 ```
 
-### **6. Building the APK (Android)**
-```bash
-flutter build apk --release
-```
-This will create an APK file in:
-```
-build/app/outputs/flutter-apk/app-release.apk
-```
-
-### **7. Building for iOS**
+### **6. Building the APK for iOS**
 ```bash
 flutter build ios --release
 ```
 Ensure Xcode is installed and configured properly.
 
-### **8. Troubleshooting**
+### **7. Troubleshooting**
 ```bash
 flutter doctor
 ```
 This command will check for missing dependencies and suggest fixes.
+
+
+### **8. Cocoapods installation**
+```bash
+cd ios && arch -x86_64 pod install
+```
 
 ---
 
