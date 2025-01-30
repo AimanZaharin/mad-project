@@ -36,7 +36,7 @@
    - Set up Firebase Authentication or an API-driven authentication system to manage user sign-ups, logins, and account security.  
 
 4. **Proper Page Routing and Navigation**  
-   - Implement structured navigation using Flutter’s `Navigator` system for smooth transitions between pages (home, book details, user profile, etc.).  
+   - Implement structured navigation using Flutter’s `Navigator` system for smooth transitions between pages (home, book details, favourites, etc.).  
 
 5. **Responsive and Well-Designed Layouts**  
    - Use Flutter’s layout widgets (`Column`, `Row`, `Expanded`, `Flexible`, `Stack`) to ensure proper UI alignment, responsiveness, and a seamless user experience across different screen sizes.  
@@ -137,7 +137,7 @@ The **Virtual Library: ShelfMate** app follows a structured and user-friendly fl
 - The Home Page includes:
   - The books that are currently trending. 
   - **Search Bar** – Allows users to search for books by title or keyword.  
-  - **Navigation Bar** – Provides access to different sections of the app (Home, Books, Favourites, Profile).
+  - **Navigation Bar** – Provides access to different sections of the app (Home, Books, Favourites, Settings).
 
 <br>
 
@@ -181,9 +181,8 @@ The **Virtual Library: ShelfMate** app follows a structured and user-friendly fl
 
 <br>
 
-6. **Profile Page**  
-- Users can access their **Profile Page** to:  
-  - **Check their email and name** 
+6. **Settings Page**  
+- Users can access their page to:
   - **Log out** 
 
 <br>
