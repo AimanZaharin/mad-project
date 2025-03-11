@@ -1,24 +1,6 @@
-# INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA  
-## KULLIYYAH OF INFORMATION COMMUNICATION TECHNOLOGY  
-### CSCI 4311 | MOBILE APPLICATION DEVELOPMENT | SECTION 1  
-### SEMESTER 1, 2024/2025  
-## Virtual Library: ShelfMate  
 
-### By Group: XBT  
-
----
-
-## **Group Members**  
-
-| Name                                   | Matric ID  |  
-|----------------------------------------|------------|  
-| **Nor Aiman Zaharin Bin Noor Azwan**   | 2115931    |  
-| **Muhammad Zulhazmi Rafiqi Azhary**    | 2116207    |  
-| **Muhammad Syafiy Bin Abdul Rahman**   | 2115569    |  
-
----
-
-## **Project Summary**  
+#Virtual Library: ShelfMate  
+---  
 
 **Virtual Library: ShelfMate** is a mobile application designed to provide users with an interactive and accessible platform to explore, manage, and discover books efficiently. The app integrates various functionalities such as book search, personalized reading lists, and a seamless user experience powered by Flutter. Users can browse book details, add favorites, and preview available books using APIs. With a responsive UI and Firebase authentication, the app ensures a secure and engaging experience for book enthusiasts.
 
